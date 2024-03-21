@@ -1,0 +1,5 @@
+.main-alerts {
+  position: fixed;
+  padding: 10px;
+  z-index: 9999;
+}

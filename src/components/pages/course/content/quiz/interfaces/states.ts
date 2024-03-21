@@ -1,0 +1,1 @@
+export type States = "loading"|"info"|"questions"|"result";
