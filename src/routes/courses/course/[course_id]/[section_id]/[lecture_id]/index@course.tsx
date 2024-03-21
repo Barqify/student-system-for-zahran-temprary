@@ -100,13 +100,13 @@ export const useGetCourse = routeLoader$<CourseReturnData>(
           // quiz data
           const quizData = checkQuiz(lecture, quizId);
 
-          // check solved quiz
-          if (lecture.quiz_is_solved === false) {
-            throw redirect(
-              303,
-              `/courses/course/${params.course_id}/${params.section_id}/${lecture.solved_quiz?.lecture_id}/?quiz=${lecture.solved_quiz?.id}&mustSolve=true`,
-            );
-          }
+          // // check solved quiz
+          // if (lecture.quiz_is_solved === false) {
+          //   throw redirect(
+          //     303,
+          //     `/courses/course/${params.course_id}/${params.section_id}/${lecture.solved_quiz?.lecture_id}/?quiz=${lecture.solved_quiz?.id}&mustSolve=true`,
+          //   );
+          // }
           return {
             current_course: params.course_id,
             current_section: params.section_id,
