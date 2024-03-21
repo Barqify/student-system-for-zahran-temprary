@@ -3,12 +3,12 @@ export const setting: SettingType = {
 
   subjectName: "الرياضيـــــات",
   name: "مستر لطفي زهران",
-  logo: "https://drive.google.com/uc?export=download&id=1zXF-PtoIuL9fqyzmV41k5_YaOedzrCJm",
+  logo: "/assets/images/logo/main-logo.png",
   teacher: "لطفي زهران",
   description: `منصة "مستر لطفي زهران" هي بوابة تعليمية مميزة تهدف إلى تقديم شرح شيق ومبسط لمادة الرياضيات. تتضمن المنصة مقاطع فيديو تعليمية توضح المفاهيم بطريقة بصرية، إضافة إلى تمارين تفاعلية لتطبيق ما تم تعلمه. يمكن للطلاب التفاعل المباشر مع المحتوى وطرح الأسئلة لمستر لطفي زهران وزملائهم. تهدف المنصة إلى جعل تعلم الرياضيات ممتعًا وفعّالًا من خلال تقديم تجربة تعليمية شاملة وتفاعلية.`,
   title: "تعاني من فهم مادةالرياضيـــــات؟",
   slogan:
-    "منصة أحمد أبو عرب حلت ليك المشكلة عن طريق منصة تفاعلية وشرح وحل لكل درس ودعم متاح طول الوقت",
+    "منصة لطفي زهران حلت ليك المشكلة عن طريق منصة تفاعلية وشرح وحل لكل درس ودعم متاح طول الوقت",
   location: "البحيرة - حوش عيسي",
   phoneNumber: "01115956226",
   url: "https://zahranacademy.online",
@@ -36,6 +36,11 @@ export const setting: SettingType = {
     },
   },
   questionSupport: {
-    isWork: false,
+    isWork: true,
+    numbers: {
+      1: "https://api.whatsapp.com/send/?phone=201014934957&text=&type=phone_number&app_absent=0",
+      2: "https://api.whatsapp.com/send/?phone=201014934957&text=&type=phone_number&app_absent=0`01014934957",
+      3: "https://t.me/+ki_uKvBEmIQ5ZGQ0"
+    }
   },
 };

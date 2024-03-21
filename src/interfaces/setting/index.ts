@@ -33,5 +33,10 @@ export type SettingType = {
   };
   questionSupport: {
     isWork: boolean;
+    numbers?: {
+      1: string;
+      2: string;
+      3: string;
+    }
   };
 };

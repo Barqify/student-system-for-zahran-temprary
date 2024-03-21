@@ -148,14 +148,12 @@ export default component$(() => {
   // course
   const course = useGetCourse();
 
-  const support = ["01014934957", "01068610197"];
 
-  const currentSupport =
-    course.value.data.study_level == "3" ? support[1] : support[0];
+  const currentSupport = setting.questionSupport.numbers[course.value.data.study_level];
 
   // has support
   const has_support =
-    course.value.data.sections[0].id != parseInt(course.value.current_section);
+    course.value.data.sections[ course.value.data.sections.length - 1].id == parseInt(course.value.current_section);
 
   return (
     <>
