@@ -40,7 +40,7 @@ export const setting: SettingType = {
     numbers: {
       1: "https://api.whatsapp.com/send/?phone=201014934957&text=&type=phone_number&app_absent=0",
       2: "https://api.whatsapp.com/send/?phone=201014934957&text=&type=phone_number&app_absent=0`01014934957",
-      3: "https://t.me/+ki_uKvBEmIQ5ZGQ0"
+      3: "https://t.me/+7midi1vgqpBjZGI0"
     }
   },
 };
